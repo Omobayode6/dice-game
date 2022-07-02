@@ -1,0 +1,54 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #F7FBFC;
+font-family: 'Caveat', cursive;
+
+}
+
+h1 {font-size: 3rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #52616B;
+    margin: 30px auto 0;
+    padding: 0.7rem 0.7rem 0;
+}
+
+button{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #9c060c;
+  color: white;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.container{
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 400px;
+  text-align: center;
+ 
+}
+
+#para{
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.dice{display: inline-block;
+    font-size: 3rem;
+    margin: 10px 0 30px;
+}
+
+.dice p {margin: 0 0 20px;}
+
+.dice img{width: 60%;}
+
+footer{margin-top: 30px;
+    font-size: 1.3rem;
+}
