@@ -24,5 +24,8 @@ if (randomNumber1 > randomNumber2){
 else {
     document.querySelector("h1").innerHTML = "Draw!";
 }
+ 
+var audio = new Audio("sounds/dice.mpeg");
+audio.play();
 
 }
